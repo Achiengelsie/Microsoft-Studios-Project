@@ -1,7 +1,7 @@
 # Microsoft Movie Studio Project
 **Author:** Elsie Ochieng
 ***
-![budget v. revenuet]('Images/filmstudio.jpg')
+![budget v. revenuet](Images/filmstudio.jpg)
 
 ## Project Overview
 
@@ -46,11 +46,11 @@ An online database that contains information about movies, tv shows, actors, dir
 
 **Question:** Do budgets correlate with high returns?
 
-![budget v. revenue]('Images/Correlation between Production Budget and Revenue.jpg')
+![budget v. revenue](Images/Correlation between Production Budget and Revenue.jpg)
 
 There is a positive correlation between production budget and revenue. This means that there in a tendency for movies with higher production budgets to return higher profits.
 
-![Top 20 profits]('Images/Production Budget and Revenue for Top 20 Movies.jpg')
+![Top 20 profits](Images/Production Budget and Revenue for Top 20 Movies.jpg)
 
 The higher the production budget, the more likely revenue will be high
 
@@ -59,11 +59,11 @@ The higher the production budget, the more likely revenue will be high
 
 **Question:** Important movie properties to consider?
 
-![genre ratings]('Images/Genre Popularity by Ratings.jpg')
+![genre ratings](Images/Genre Popularity by Ratings.jpg)
 
 The most popular genres from the data analysed is Drama. Other genres like Comedy, Documentary, Thriller and action are also popular but not as much. It is however important to note that most movies tend to have more than one genre therefore it is important that a movie have the right mix of genres for it to be good.
 
-![Runtime distribution]('Images/Histogram Showing Runtime Distribution.jpg')
+![Runtime distribution](Images/Histogram Showing Runtime Distribution.jpg)
 
 
 
@@ -71,14 +71,14 @@ The most popular genres from the data analysed is Drama. Other genres like Comed
 
 **Question:** Who are the best writers in the industry?
 
-![Top 5 directors]('Images/Top 5 directors.jpg')
+![Top 5 directors](Images/Top 5 directors.jpg)
 
 
 From this analysis we identified the top 5 writers that Microsoft can consider working with to produce good content
 
 **Question:** Who is the competition?
 
-![Studio Ratings]('Images/Studio Ratings.png')
+![Studio Ratings](Images/Studio Ratings.png)
 
 To compete with some of the top studios Microsoft needs to aim for an average RT rating of 10. We have also identified some of the studios to look out for.
 
