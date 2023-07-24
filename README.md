@@ -46,7 +46,7 @@ An online database that contains information about movies, tv shows, actors, dir
 
 **Question:** Do budgets correlate with high returns?
 
-![budget v. revenue](Images/Correlation between Production Budget and Revenue.jpg)
+![budget v. revenue](http://localhost:8888/view/Images/Correlation%20between%20Production%20Budget%20and%20Revenue.jpg)
 
 There is a positive correlation between production budget and revenue. This means that there in a tendency for movies with higher production budgets to return higher profits.
 
