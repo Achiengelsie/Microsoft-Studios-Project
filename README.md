@@ -3,6 +3,7 @@
 ***
 ![budget v. revenuet](Images/filmstudio.jpg)
 
+
 ## Project Overview
 
 Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a movie studio, but possess little to no knowledge on what factors to consider.Therefore, an anlysis was conducted on various datasets to help understand the Movie business better and obtain key business recommendations to help the Microsoft Movie Studio enter the market and deliver the best content possible.
@@ -46,11 +47,12 @@ An online database that contains information about movies, tv shows, actors, dir
 
 **Question:** Do budgets correlate with high returns?
 
-![budget v. revenue](http://localhost:8888/view/Images/Correlation%20between%20Production%20Budget%20and%20Revenue.jpg)
+
+![Correlation between Production Budget and Revenue](https://github.com/Achiengelsie/Microsoft-Studios-Project/assets/123055646/1906e638-6ac2-48a9-adf1-f6d1e305d858)
 
 There is a positive correlation between production budget and revenue. This means that there in a tendency for movies with higher production budgets to return higher profits.
 
-![Top 20 profits](Images/Production Budget and Revenue for Top 20 Movies.jpg)
+![Production Budget and Revenue for Top 20 Movies](https://github.com/Achiengelsie/Microsoft-Studios-Project/assets/123055646/20e4002f-dfc3-4981-b9ca-4dce94fd0784)
 
 The higher the production budget, the more likely revenue will be high
 
@@ -59,11 +61,14 @@ The higher the production budget, the more likely revenue will be high
 
 **Question:** Important movie properties to consider?
 
-![genre ratings](Images/Genre Popularity by Ratings.jpg)
+
+![Genre Popularity by Ratings](https://github.com/Achiengelsie/Microsoft-Studios-Project/assets/123055646/c15f2d86-a94f-4086-983c-eb7bd7b553c4)
+
 
 The most popular genres from the data analysed is Drama. Other genres like Comedy, Documentary, Thriller and action are also popular but not as much. It is however important to note that most movies tend to have more than one genre therefore it is important that a movie have the right mix of genres for it to be good.
 
-![Runtime distribution](Images/Histogram Showing Runtime Distribution.jpg)
+
+![Histogram Showing Runtime Distribution](https://github.com/Achiengelsie/Microsoft-Studios-Project/assets/123055646/f25a8d15-87a7-4503-9438-00e985d023d8)
 
 
 
@@ -71,14 +76,15 @@ The most popular genres from the data analysed is Drama. Other genres like Comed
 
 **Question:** Who are the best writers in the industry?
 
-![Top 5 directors](Images/Top 5 directors.jpg)
+![Top 5 directors](https://github.com/Achiengelsie/Microsoft-Studios-Project/assets/123055646/9966181e-cf03-4109-8b26-bc055befb4c8)
 
 
 From this analysis we identified the top 5 writers that Microsoft can consider working with to produce good content
 
 **Question:** Who is the competition?
 
-![Studio Ratings](Images/Studio Ratings.png)
+![Studio Ratings](https://github.com/Achiengelsie/Microsoft-Studios-Project/assets/123055646/61bfcbd0-6e1f-4417-a88f-5942a020692c)
+
 
 To compete with some of the top studios Microsoft needs to aim for an average RT rating of 10. We have also identified some of the studios to look out for.
 
