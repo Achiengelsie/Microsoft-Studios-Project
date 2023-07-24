@@ -1,65 +1,116 @@
-# Phase 1 Project
-
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+# Microsoft Movie Studio Project
+**Author:** Elsie Ochieng
+***
+![budget v. revenuet]('Images/filmstudio.jpg')
 
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+Therefore, an anlysis was conducted on various datasets to help understand the Movie business better and obtain key business recommendations to help the Microsoft Movie Studio enter the market and deliver the best content possible.
+The questions answered through understaning and analysing the data are:
 
-### Business Problem
+    1. Why should Microsoft consider getting into the movie making business?
+    2. What kind of movies should Microsoft focus on and why?
+    3. WHo should Microsoft work with to produce the best?
+  
+The questions are answered by looking into various datasets and anlysing different trends over a period of time.
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+## Business Problem
 
-### The Data
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a movie studio, but possess little to no knowledge on what factors to consider.
+Currently the movie industry is saturated and extremely competitive. Many of the industry players do more than just producing content. They also offer streaming services where the consumers are able to easily access the content.
 
-In the folder `zippedData` are movie datasets from:
+To ensure that Microsoft has the information needed to successfully enter the market exploratory data anlysis was carried out on various datasets to retrieve key business recommendations. First, budgeting and rvenues were looked into because the main goal of entering into any buiness is of course to make profit. Secondly,  movie properties and features such as runtime and popular genres were investigated as these are what separate a hit movie from others. Third was to look into who to work with in the industry as well as who the competition is. This will help Microsoft set itself apart from the rest and find unique ways to ensure they standout from the rest.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+***
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+## Data
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+The data used came from three different sources.
 
-## Deliverables
+**1. The Numbers**
 
-There are three deliverables for this project:
+A website that tracks box office revenue using algorithms to also forecast incomes of film projects. The specific dataset used contains information on movies, release dates, production budgets, domestic and worldwide income all of which were target variables.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+**2. Rotten Tomatoes**
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+Contains aggregates of movie reviews from critics and audiences. Implements a Tomatometer system to rate movies thus giving people information on what different critics think of a movie. The data used includes movie reviews, genres, runtimes and studios.
 
-### Key Points
+**3. Internet Movie Database(IMDb)**
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+An online database that contains information about movies, tv shows, actors, directors and other aspects of the entertainment industry. The dataset used contained tables about movies, directors, writers and other personnel related to the movies. Also contained average movie ratings and number of votes received for the ratings.
+***
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+## Results
 
-## Getting Started
+###  Budgets and Profits
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+**Question:** Do budgets correlate with high returns?
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+![budget v. revenuet]('images/Correlation btwn Production Budget and Revenue.jpg')
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+There is a positive correlation between production budget and revenue. This means that there in a tendency for movies with higher production budgets to return higher profits.
 
-## Project Submission and Review
+![Top 20 profits]('images/Production Budget and Revenue for Top 20 Movies.jpg')
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+The higher the production budget, the more likely revenue will be high
 
-## Summary
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+### Genres and Runtime
+
+**Question:** Important movie properties to consider?
+
+![genre ratings]('images/Genre Popularity by Ratings.jpg')
+
+The most popular genres from the data analysed is Drama. Other genres like Comedy, Documentary, Thriller and action are also popular but not as much. It is however important to note that most movies tend to have more than one genre therefore it is important that a movie have the right mix of genres for it to be good.
+
+![Runtime distribution]('images/Histogram Showing Runtime Distribution.jpg')
+
+
+
+### Competition and collaborators
+
+**Question:** Who are the best writers in the industry?
+
+![Top 5 directors]('images/Top 5 directors.jpg')
+
+
+From this analysis we identified the top 5 writers that Microsoft can consider working with to produce good content
+
+**Question:** Who is the competition?
+
+![Studio Ratings]('images/Studio Ratings.png')
+
+To compete with some of the top studios Microsoft needs to aim for an average RT rating of 10. We have also identified some of the studios to look out for.
+
+
+## Conclusion
+
+This analysis leads to three recommendations for Microsoft's entry in the film industry:
+
+ **1. Invest in high budget**
+ 
+For high returns, Microsofy should plan to invest ... in a film. The higher the budget the higher the quality of film which will attract higher profits
+     
+ **2. Produce movies within Drama, Action, Comedy, Thriller and Documentary genres**
+  
+This is because from the nalysis we saw that these genres are the most popular. Microsoft also needs to ensure that the movies they produce have a runtime in the 90 - 100 minute range as this is what viewers prefer.
+     
+ **3. Work with the best in the industry and observe competition**
+ 
+There are several directors Microsoft can collaborate wth to ensure that they produce some of the best content that will enable them compete with other movie studios. We have also noted that to compete with some of the top studios Microsoft needs to aim for an average RT rating of 10. We have also identified some of the studios to look out for
+   
+There is further analysis required to provide even more insight on the Movie industry. Areas such as offering streaming services is an example of a key area that needs looking into to ensure that Microsoft gets into the industry armed with the best info.
+
+
+## Repository Structure
+
+Describe the structure of your repository and its contents, for example:
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
